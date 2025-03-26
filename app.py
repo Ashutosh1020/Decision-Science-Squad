@@ -168,7 +168,7 @@ h1, h2, h3 {
 
 /* Widget labels */
 .stSelectbox label, .stNumberInput label {
-    color: #2a4480;
+    color: #0066CC;
     font-weight: 500;
 }
 
@@ -192,7 +192,7 @@ h1, h2, h3 {
 
 /* Change the font color of 'Select Flight Date' */
 .stDateInput label {
-    color: blue !important;
+    color: #0066CC !important;
     font-weight: 500;
 }
 /* Sidebar select box labels */

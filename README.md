@@ -100,10 +100,16 @@ To run this project locally, follow these steps:
 ---
 
 ## 🛠️ Technologies Used
-- 🐍 **Python** (Pandas, NumPy, Scikit-learn, XGBoost)
-- 🎨 **Streamlit** (For web app deployment)
-- 📊 **Matplotlib & Seaborn** (For visualization)
-- 🌐 **Flask** (Optional API integration)
+Backend:<br>
+🐍 Python (Pandas, NumPy, Scikit-learn)<br>
+⚡ Joblib (Model serialization)<br><br>
+
+Frontend:<br>
+🎨 Streamlit (Interactive UI)<br>
+📊 Plotly (Dynamic visualizations)<br><br>
+
+Infrastructure:<br>
+☁️ Streamlit Sharing (Deployment)
 
 ---
 
@@ -127,3 +133,16 @@ Video Walkthrough of the project :
 <h4>» Some Code Snippet </h4> 
 <img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3814).png" width="750" height="310" alt="Filter Data">
 <img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3815).png" width="750" height="310" alt="Filter Data">
+
+ # Request  🤗
+<div>
+<li>If You find any bug then please create an issue we love to solve that</li>
+<li>If you want to contribute to this project then feel free to make a pull request we love to merge your request</li>
+ </div>
+   
+ <h4>😊 If you like this project then feel free to give Star🌟</h4>
+ 
+  
+ ### Feedback / Contributing 🤝
+ > Contributions are always welcome! Just raise an issue, and we will discuss it.
+ > If you have any feedback, please reach out to us <a href="mailto: uashutosh309@gmail.com">Decision Science Squad</a>

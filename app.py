@@ -192,7 +192,7 @@ h1, h2, h3 {
 
 /* Change the font color of 'Select Flight Date' */
 .stDateInput label {
-    color: black !important;
+    color: blue !important;
     font-weight: 500;
 }
 /* Sidebar select box labels */
@@ -214,7 +214,7 @@ section[data-testid="stSidebar"] label {
 }
 /* Target the label of the time input widget */
     .stTimeInput label {
-        color: black !important;
+        color: blue !important;
         font-weight: bold !important;
     }
 

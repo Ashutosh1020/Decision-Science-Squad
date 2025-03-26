@@ -113,17 +113,17 @@ Video Walkthrough of the project :
 ### ScreenShots 📷
 
 <h4>» Dashboard </h4>
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3809).png" width="700" height="300" alt="Dashboard">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3809).png" width="750" height="310" alt="Dashboard">
 
 <h4>» Average Price By Airline </h4>
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3810).png" width="700" height="300" alt="Filter Data">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3810).png" width="750" height="310" alt="Filter Data">
 
 <h4>» Flight Price Predictor </h4> 
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3812).png" width="700" height="300" alt="Filter Data">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3812).png" width="750" height="310" alt="Filter Data">
 
 <h4>» Prediction Result</h4> 
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3813).png" width="700" height="300" alt="Filter Data">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3813).png" width="750" height="310" alt="Filter Data">
 
 <h4>» Some Code Snippet </h4> 
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3814).png" width="700" height="300" alt="Filter Data">
-<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3815).png" width="700" height="300" alt="Filter Data">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3814).png" width="750" height="310" alt="Filter Data">
+<img src="https://github.com/Ashutosh1020/Decision-Science-Squad/blob/main/Project_ScreenShots/Screenshot%20(3815).png" width="750" height="310" alt="Filter Data">

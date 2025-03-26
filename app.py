@@ -226,7 +226,7 @@ section[data-testid="stSidebar"] label {
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("processed_flight_prices.csv")
+        df = pd.read_csv("processed_flights_price.csv")
         # Ensure flight date is in datetime format
         if 'Flight Date' in df.columns:
             df['Flight Date'] = pd.to_datetime(df['Flight Date'], errors='coerce')

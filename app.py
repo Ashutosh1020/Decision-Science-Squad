@@ -170,6 +170,7 @@ h1, h2, h3 {
 .stSelectbox label, .stNumberInput label {
     color: #0066CC;
     font-weight: 500;
+    
 }
 
 /* Streamlit expander */
@@ -182,7 +183,10 @@ h1, h2, h3 {
 .stSelectbox div[data-baseweb="select"] {
     border-radius: 8px;
     border-color: #d1d5db;
+    
 }
+
+
 
 /* Number inputs */
 .stNumberInput div[data-baseweb="input"] {
@@ -195,6 +199,7 @@ h1, h2, h3 {
     color: #0066CC !important;
     font-weight: 500;
 }
+
 /* Sidebar select box labels */
 section[data-testid="stSidebar"] label {
     color: white !important;
@@ -215,13 +220,13 @@ section[data-testid="stSidebar"] label {
 /* Target the label of the time input widget */
     .stTimeInput label {
         color: #0066CC !important;
-        font-weight: bold !important;
+        font-weight: 600 !important;
+        
     }
 
 
 </style>
 """, unsafe_allow_html=True)
-
 
 # Load the dataset
 @st.cache_data

@@ -6,6 +6,7 @@ import joblib
 from datetime import datetime
 import numpy as np
 import os
+import gdown
 
 # Page configuration
 st.set_page_config(
@@ -167,8 +168,9 @@ h1, h2, h3 {
 
 /* Widget labels */
 .stSelectbox label, .stNumberInput label {
-    color: #2a4480;
+    color: #0066CC;
     font-weight: 500;
+    
 }
 
 /* Streamlit expander */
@@ -181,7 +183,10 @@ h1, h2, h3 {
 .stSelectbox div[data-baseweb="select"] {
     border-radius: 8px;
     border-color: #d1d5db;
+    
 }
+
+
 
 /* Number inputs */
 .stNumberInput div[data-baseweb="input"] {
@@ -191,9 +196,10 @@ h1, h2, h3 {
 
 /* Change the font color of 'Select Flight Date' */
 .stDateInput label {
-    color: black !important;
+    color: #0066CC !important;
     font-weight: 500;
 }
+
 /* Sidebar select box labels */
 section[data-testid="stSidebar"] label {
     color: white !important;
@@ -213,14 +219,14 @@ section[data-testid="stSidebar"] label {
 }
 /* Target the label of the time input widget */
     .stTimeInput label {
-        color: black !important;
-        font-weight: bold !important;
+        color: #0066CC !important;
+        font-weight: 600 !important;
+        
     }
 
 
 </style>
 """, unsafe_allow_html=True)
-
 
 # Load the dataset
 @st.cache_data
@@ -272,15 +278,26 @@ def load_data():
         df = pd.DataFrame(sample_data)
         return df
 
+# Configure Google Drive link
+MODEL_URL = "https://drive.google.com/uc?id=1g241oRYF554q1grX4bOfBzlJJo1gGLxq"
+MODEL_PATH = "optimized_flight_model.pkl"
+
 # Load model and features
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load("optimized_flight_model.pkl")
+        # Download model from Google Drive if it doesn't exist
+        if not os.path.exists(MODEL_PATH):
+            st.info("Downloading model file from Google Drive...")
+            gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+        
+        # Load local files as before
+        model = joblib.load(MODEL_PATH)
         features = joblib.load("flight_features.pkl")
         return model, features
-    except FileNotFoundError:
-        st.error("Model or feature files not found. Prediction functionality will be limited.")
+        
+    except Exception as e:
+        st.error(f"Error loading model: {str(e)}")
         return None, None
 
 # Main function to run the app
@@ -288,6 +305,7 @@ def main():
     # Load data and model
     df = load_data()
     model, feature_columns = load_model()
+    
 
 ##############################################################################################################################################################
 

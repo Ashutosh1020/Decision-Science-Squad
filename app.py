@@ -214,7 +214,7 @@ section[data-testid="stSidebar"] label {
 }
 /* Target the label of the time input widget */
     .stTimeInput label {
-        color: blue !important;
+        color: #0066CC !important;
         font-weight: bold !important;
     }
 
